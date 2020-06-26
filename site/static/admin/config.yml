@@ -82,3 +82,32 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Heading, name: heading, widget: string}
               - {label: Text, name: text, widget: text}
               - {label: Image, name: imageUrl, widget: image}
+  - name: "news"
+    label: "Новость"
+    folder: "site/content/news"
+    create: true
+    fields:
+      - { name: "title", label: "Название", widget: "string" }
+      - { name: "date", label: "Дата публикации", widget: "datetime" }
+      - { name: "description", label: "Краткое описание", widget: "text" }
+      - { name: "image", label: "Фото", widget: "image", required: false}
+      - { name: "body", label: "Текст", widget: "markdown"}
+  - name: "maps"
+    label: "Карта"
+    folder: "site/content/maps"
+    create: true
+    fields:
+      - { name: "title", label: "Название", widget: "string" }
+      - name: "courses"
+        label: "Дистанции"
+        widget: "list"
+        fields:
+          - label: "Сложность"
+            name: "difficalty"
+            widget: "string"
+          - label: "Описание"
+            name: "description"
+            widget: "markdown"
+          - label: "Карта с дистанцией"
+            name: "file"
+            widget: "file"
