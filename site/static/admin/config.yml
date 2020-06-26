@@ -18,11 +18,11 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "pages"
-    label: "Pages"
+    label: "Страницы"
     files:
-      - file: "site/content/_index.md"
-        label: "Home Page"
-        name: "home"
+      - file: "site/content/how-to/_index.md"
+        label: "Инструкции"
+        name: "how-to"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Subtitle, name: subtitle, widget: string}
@@ -83,7 +83,7 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Text, name: text, widget: text}
               - {label: Image, name: imageUrl, widget: image}
   - name: "news"
-    label: "Новость"
+    label: "Новости"
     folder: "site/content/news"
     create: true
     fields:
@@ -93,7 +93,7 @@ collections: # A list of collections the CMS should be able to edit
       - { name: "image", label: "Фото", widget: "image", required: false}
       - { name: "body", label: "Текст", widget: "markdown"}
   - name: "maps"
-    label: "Карта"
+    label: "Карты"
     folder: "site/content/maps"
     create: true
     fields:
