@@ -8,3 +8,16 @@ theme = "cupper-hugo-theme"
 # See configuration options for more details: 
 # https://gohugo.io/getting-started/configuration/#toml-configuration
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+
+[menu]
+nav = [
+  { name = "Новости", url = "/", weight = 1 },
+  { name = "Инструкции", url = "/how-to/", weight = 2 },
+  { name = "Карты", url = "/maps/", weight = 3 },
+  { name = "Что дальше?", url = "/next/", weight = 4 },
+  { name = "Контакты", url = "/contact/", weight = 5 },
+]
+
+[params]
+# Enable search functionalify on list pages.
+search = false
