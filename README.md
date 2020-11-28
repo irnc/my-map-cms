@@ -1,10 +1,21 @@
+# Мая мапа
+
+Як пабудаваны гэты сайт?
+
+* Hugo для пабудовы кантэнта
+  * `site/`
+* хостынг праз https://www.netlify.com/
+  * https://my-mapa.netlify.app/
+  * на Netlify наладжан працэс Continuous Deployment з `master` веткі
+  * праз `yarn build` будуецца і пастаўляецц `dist/`
+
 # Hugo template for Netlify CMS with Netlify Identity
 
 This is a small business template built with [Victor Hugo](https://github.com/netlify/victor-hugo) and [Netlify CMS](https://github.com/netlify/netlify-cms), designed and developed by [Darin Dimitroff](http://www.darindimitroff.com/), [spacefarm.digital](https://www.spacefarm.digital).
 
 ## Getting started
 
-Use our deploy button to get your own copy of the repository. 
+Use our deploy button to get your own copy of the repository.
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/one-click-hugo-cms&stack=cms)
 
