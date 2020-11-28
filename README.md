@@ -16,6 +16,9 @@
 
 * Hugo для пабудовы кантэнта
   * `site/`
+  * `site/layouts/index.html`
+
+    Выкарыстоўваецца на галоўнай старонцы, задае галойны блок з кантэнтам.
 * хостынг праз https://www.netlify.com/
   * https://my-mapa.netlify.app/
   * на Netlify наладжан працэс Continuous Deployment з `master` веткі
