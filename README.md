@@ -1,6 +1,18 @@
 # Мая мапа
 
-Як пабудаваны гэты сайт?
+## Праца з кантэнтам
+
+- https://my-mapa.netlify.app/admin/
+  - Login with Netlify Identity
+    - Continue with Google
+
+## Распрацоўка
+
+Задачы на [досцы Trello Мая Мапа][trello].
+
+[trello]: https://trello.com/b/dDT8QagB/%D0%BC%D0%B0%D1%8F-%D0%BC%D0%B0%D0%BF%D0%B0
+
+## Як пабудаваны гэты сайт?
 
 * Hugo для пабудовы кантэнта
   * `site/`
