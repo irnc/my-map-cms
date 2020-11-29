@@ -18,11 +18,15 @@
             {{ .Title }}
           </a>
         </h2>
+        <p>
+          <small>{{ .Date.Day }} {{ index (index .Site.Data "months.ru") (printf "%d" .Date.Month) }}, {{ .Date.Year }}</small>
+        </p>
 
         <img src="{{ .Params.image }}" />
         <p>
           {{ .Params.description }}
         </p>
+        <a href="{{ .Permalink }}">прочитать больше</a>
       </li>
       {{ end }}
     </ul>
