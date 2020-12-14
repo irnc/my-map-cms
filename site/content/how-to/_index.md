@@ -1,7 +1,7 @@
 ---
 title: Как пользоваться проектом?
 subtitle: Инновационное пространство для активного отдыха в вашем городе.
-image: img/37.jpg
+image: img/155593_422960771085232_261254686_n.jpg
 blurb:
   heading: Проект "Мая Мапа"
   text: >+
@@ -39,17 +39,57 @@ intro:
 
     Карты с маршрутами можно скачать с сайта в высоком разрешении и распечатать самостоятельно дома. Также можно проходить маршрут с помощью смартфона или планшета, предварительно загрузив карту с маршрутом с сайта или просто сделав фото карты со всеми КП на информационном стенде. Маршруты можно проходить в любое удобное время суток без привязки к датам, всесезонно.
 products:
-  - image: img/illustrations-coffee.svg
-    text: We sell green and roasted coffee beans that are sourced directly from
-      independent farmers and farm cooperatives. We’re proud to offer a variety
-      of coffee beans grown with great care for the environment and local
-      communities. Check our post or contact us directly for current
-      availability.
-  - image: /img/illustrations-coffee-gear.svg
-    text: We offer a small, but carefully curated selection of brewing gear and
-      tools for every taste and experience level. No matter if you roast your
-      own beans or just bought your first french press, you’ll find a gadget to
-      fall in love with in our shop.
+  - image: img/34.jpg
+    text: >
+      1. В закладке карты и маршруты выбери интересующее тебя место. 
+
+      2.  Выбери маршрут в соответствии со своими возможностями.
+
+      Выбери один из маршрутов:
+
+      - Простой
+
+      - Лёгкий
+
+      - Средний
+
+      - Трудный
+
+      - Сложный
+
+      - Для любителей велоприключений
+
+      - Экстра
+
+      3. Скачайте карту и распечатайте, все карты выполнены в формате А4, расширение файла pdf.
+
+      4. Помните, что в лесу может быть мокро, поэтому стоит карту вложить в защитный пакет.
+  - image: img/foto_zswl_tablica_qr.jpg
+    text: >
+      1. В закладке карты и маршруты в левом меню выбери интересующее тебя
+      место.
+
+      2. Выбери маршрут в соответствии со своими возможностями.
+
+      Выбери один из маршрутов:
+
+      - Простой
+
+      - Лёгкий
+
+      - Средний
+
+      - Трудный
+
+      - Сложный
+
+      - Для любителей велоприключений
+
+      - Экстра
+
+      3. Скачайте карту, все карты выполнены в расширении pdf.
+
+      4. Если вы находитесь возле информационного стенда, можете скачать карту сканировав QR код. Достаточно только будет выбрать сложность маршрута. 
 values:
   heading: Our values
   text: Coffee is an amazing part of human culture but it has a dark side too –
