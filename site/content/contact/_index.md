@@ -15,4 +15,4 @@ contact_entries:
 
 Наши социальные сети:
 
-* [https://www.instagram.com/mymapabelarus]()
+* Instagram [@mymapabelarus](https://www.instagram.com/mymapabelarus)
