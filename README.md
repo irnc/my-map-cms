@@ -16,6 +16,10 @@
 
 * Hugo для пабудовы кантэнта
   * `site/`
+  * `layouts/_default/baseof.html`
+
+    Галоўны шаблон, які ўключае усе астатнія.
+
   * `site/layouts/index.html`
 
     Выкарыстоўваецца на галоўнай старонцы, задае галойны блок з кантэнтам.
@@ -23,6 +27,9 @@
   * https://my-mapa.netlify.app/
   * на Netlify наладжан працэс Continuous Deployment з `master` веткі
   * праз `yarn build` будуецца і пастаўляецц `dist/`
+
+* Netlify CMS для працы з кантэнтам
+  * наладкі праз `site/static/admin/config.yml`
 
 # Hugo template for Netlify CMS with Netlify Identity
 
