@@ -1,9 +1,5 @@
 {{ define "main" }}
-  <main id="main">
-    <h1>{{ .Title }}</h1>
-
-    <section>
-      {{ .Params.content | markdownify }}
-    </section>
-  </main>
+  <section class="center measure-wide">
+    {{ .Params.content | markdownify }}
+  </section>
 {{ end }}

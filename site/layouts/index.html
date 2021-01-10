@@ -1,34 +1,26 @@
 {{ define "main" }}
   {{ $news := where .Site.RegularPages.ByLastmod.Reverse "Section" "in" (slice "news") }}
 
-  <main id="main">
-    <ul class="patterns-list" id="list">
-      {{ range (first 10 $news) }}
-      <li>
-        <h2>
-          <a href="{{ .Permalink }}">
-            <svg
-              class="bookmark"
-              aria-hidden="true"
-              viewBox="0 0 40 50"
-              focusable="false"
-            >
-              <use xlink:href="#bookmark"></use>
-            </svg>
-            {{ .Title }}
-          </a>
-        </h2>
-        <p>
-          <small>{{ .Date.Day }} {{ index (index .Site.Data "months.ru") (printf "%d" .Date.Month) }}, {{ .Date.Year }}</small>
-        </p>
-
-        <img src="{{ .Params.image }}" />
-        <p>
-          {{ .Params.description }}
-        </p>
-        <a href="{{ .Permalink }}">прочитать больше</a>
-      </li>
-      {{ end }}
-    </ul>
-  </main>
+  <section class="mw7 center avenir">
+    {{ range (first 10 $news) }}
+      <article class="bb b--black-10">
+        <a class="db pv4 ph3 ph0-l no-underline black dim" href="{{ .Permalink }}">
+          <div class="flex flex-column flex-row-ns">
+            <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
+              <img src="{{ .Params.image }}" class="db" alt="">
+            </div>
+            <div class="w-100 w-60-ns pl3-ns">
+              <h1 class="f3 fw1 baskerville mt0 lh-title">{{ .Title }}</h1>
+              <p class="f6 f5-l lh-copy">
+                {{ .Params.description }}
+              </p>
+              <p class="f6 lh-copy mv0">
+                {{ .Date.Day }} {{ index (index .Site.Data "months.ru") (printf "%d" .Date.Month) }}, {{ .Date.Year }}
+              </p>
+            </div>
+          </div>
+        </a>
+      </article>
+    {{ end }}
+  </section>
 {{ end }}

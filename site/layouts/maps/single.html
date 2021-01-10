@@ -30,11 +30,6 @@
       </div>
     {{ end }}
 
-    {{ if ne .Params.toc false }}
-      {{ partial "toc" . }}
-    {{ end }}
-
     {{ .Content }}
   </main>
-  {{ partial "disqus.html" . }}
 {{ end }}

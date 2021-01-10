@@ -1,5 +1,7 @@
 ---
-title: "Great coffee with a conscience"
+title: "Приключения рядом!"
+featured_image: img/4343.jpg
+omit_header_text: true
 subtitle: Support sustainable farming while enjoying a cup
 image: /img/home-jumbotron.jpg
 blurb:

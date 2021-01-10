@@ -1,16 +1,17 @@
 baseurl = "/"
 languageCode = "en-us"
 languageLang = "en"
-title = "Homepage"
-theme = "cupper-hugo-theme"
+title = "Мая мапа"
+# theme = "cupper-hugo-theme"
+theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
 
 # RSS, categories and tags disabled for an easy start
-# See configuration options for more details: 
+# See configuration options for more details:
 # https://gohugo.io/getting-started/configuration/#toml-configuration
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 
 [menu]
-nav = [
+main = [
   { name = "Новости", url = "/", weight = 1 },
   { name = "Инструкции", url = "/how-to/", weight = 2 },
   { name = "Карты", url = "/maps/", weight = 3 },
@@ -19,5 +20,7 @@ nav = [
 ]
 
 [params]
-# Enable search functionalify on list pages.
-search = false
+  # Enable search functionalify on list pages.
+  search = false
+  # Замест site_logo мы выкарыстоўваем на галоўнай featured_image які змяшчае лагатып.
+  site_logo = "/mymapa-logo.jpg"
