@@ -16,7 +16,7 @@
     </button>
   </h2>
   <div id="js-expandable-{{ $random }}" hidden>
-    <a href="/{{ .file }}">Скачать карту с маршрутом "{{ .difficalty }}"</a>
+    <a href="{{ .file | relURL }}">Скачать карту с маршрутом "{{ .difficalty }}"</a>
     <div>
       {{ .description | markdownify }}
     </div>
