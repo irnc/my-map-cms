@@ -5,7 +5,7 @@ title = "Homepage"
 theme = "cupper-hugo-theme"
 
 # RSS, categories and tags disabled for an easy start
-# See configuration options for more details: 
+# See configuration options for more details:
 # https://gohugo.io/getting-started/configuration/#toml-configuration
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 
@@ -21,3 +21,8 @@ nav = [
 [params]
 # Enable search functionalify on list pages.
 search = false
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
