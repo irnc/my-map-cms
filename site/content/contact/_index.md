@@ -13,7 +13,7 @@ contact_entries:
 
 <!--EndFragment-->
 
-Наша е-почта: [mymapa@gmail.com](mailto:mymapa@gmail.com)
+Наша е-почта: [mymapabelarus@gmail.com](mailto:mymapa@gmail.com)
 
 Наши социальные сети:
 
