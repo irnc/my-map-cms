@@ -88,6 +88,6 @@ collections: # A list of collections the CMS should be able to edit
           - label: "Описание"
             name: "description"
             widget: "markdown"
-          - label: "Карта с дистанцией"
+          - label: "Карта с маршрутом"
             name: "file"
             widget: "file"
