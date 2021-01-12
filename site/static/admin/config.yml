@@ -91,3 +91,6 @@ collections: # A list of collections the CMS should be able to edit
           - label: "Карта с маршрутом"
             name: "file"
             widget: "file"
+          - label: "Коды КП"
+            name: "controls"
+            widget: "file"
