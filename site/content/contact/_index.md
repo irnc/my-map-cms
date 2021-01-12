@@ -2,8 +2,8 @@
 title: Контакты
 logo: img/46.png
 contact_entries:
-  - heading: Наша е-почта
-    text: mymapa@gmail.com
+  - heading: "Наш email:"
+    text: mymapabelarus@gmail.com
   - heading: Наши социальные сети
     text: https://www.instagram.com/mymapabelarus
 ---
