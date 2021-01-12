@@ -17,7 +17,7 @@ contact_entries:
 
 <!--EndFragment-->
 
-Наш email: [mymapabelarus@gmail.com](mailto:mymapa@gmail.com)
+Наш email: [mymapabelarus@gmail.com](mymapabelarus@gmail.com)
 
 Наши социальные сети:
 
