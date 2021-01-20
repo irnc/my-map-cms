@@ -8,6 +8,7 @@ contact_entries:
     text: |-
       https://www.instagram.com/mymapabelarus
       https://www.facebook.com/mymapabelarus
+      https://vk.com/mymapabelarus
 ---
 <!--StartFragment-->
 
@@ -25,3 +26,4 @@ contact_entries:
 
 * Instagram [@mymapabelarus](https://www.instagram.com/mymapabelarus)
 * Facebook [@mymapabelarus](https://www.facebook.com/mymapabelarus)
+* Вконтакте [@mymapabelarus](https://vk.com/mymapabelarus)
