@@ -5,7 +5,9 @@ contact_entries:
   - heading: "Наш email:"
     text: mymapabelarus@gmail.com
   - heading: Наши социальные сети
-    text: https://www.instagram.com/mymapabelarus
+    text: |-
+      https://www.instagram.com/mymapabelarus
+      https://www.facebook.com/mymapabelarus
 ---
 <!--StartFragment-->
 
@@ -22,3 +24,4 @@ contact_entries:
 Наши социальные сети:
 
 * Instagram [@mymapabelarus](https://www.instagram.com/mymapabelarus)
+* Facebook [@mymapabelarus](https://www.facebook.com/mymapabelarus)
